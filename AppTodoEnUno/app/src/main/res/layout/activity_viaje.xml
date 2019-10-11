@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_viaje">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:text="Total de kilómetros recorridos"/>
+
+    <EditText
+        android:id="@+id/Kilometros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:text="Precio de la gasolina"/>
+
+    <EditText
+        android:id="@+id/PrecioGaso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:inputType="number" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:text="Dinero de gasolina gastada"/>
+
+    <EditText
+        android:id="@+id/DineroGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:text="Tiempo del viaje"/>
+
+    <EditText
+        android:id="@+id/Tie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+
+        />
+
+
+
+    <TextView
+    android:id="@+id/txt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textSize="7pt"
+    android:text="Consumo de gasolina por cada 100KM" />
+    <TextView
+        android:id="@+id/txtResultado100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="7pt"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:text="Consumo de gasolina por cada KM" />
+    <TextView
+        android:id="@+id/txtConsumo1KM"
+        android:layout_width="match_parent"
+        android:textSize="7pt"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView
+        android:id="@+id/T"
+        android:layout_width="match_parent"
+        android:textSize="7pt"
+        android:layout_height="wrap_content"
+        android:text="Velocidad media" />
+    <TextView
+        android:id="@+id/tiemp"
+        android:layout_width="match_parent"
+        android:textSize="7pt"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Regresar" />
+
+
+</LinearLayout>
